@@ -89,7 +89,7 @@
               <div class='col-lg-6'>
                 <ul>
                   <li><i class='icofont-rounded-right'></i> <strong>Email:</strong>
-			  <a style='color:#272829' href="mailto:rajiv3124@gmail.com?subject=Found you on Github!&body=Hi Rajiv, We would like to connect to you for " target="_top">
+			  <a href="mailto:rajiv3124@gmail.com?subject=Found you on Github!&body=Hi Rajiv, We would like to connect to you for " target="_top">
 				  rajiv3124@gmail.com
 			  </a>
 		  </li>
@@ -196,6 +196,11 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-169330712-1');
+$(document).ready(function () {
+   $("body").on("contextmenu",function(e){
+     return false;
+   });
+});
 </script>
 </body>
 </html>
